@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio-Growth Agro Tech</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
@@ -15,7 +15,7 @@
         <div>.
         </div>
         <div id="nav-bar" >
-            <a href="../index.html"><img src="../images/Bio_Growth_logo-removebg-preview.png" alt=""></a>
+            <a href="../hero-page/index.html"><img src="./images/Bio_Growth_logo-removebg-preview.png" alt=""></a>
             <h5>Bio-Growth</h5>
             <ul>
                 <li><a href="#">Products</a></li>
@@ -23,7 +23,7 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Company</a></li>    
             </ul>
-           <button id="btn-2" onclick="login()" >Log in</button>
+           <button id="btn-2" onclick="login()">Log in</button>
            <button id="btn-1" onclick="signup()">Sign Up</button>
         </div>
         <div class="signup-info">
@@ -38,24 +38,32 @@
                     <div id="chart" >.</div>
                     <div id="chart" >.</div>
                 </div>                 -->
-                <h1>Login to your <br>BioGrowth Membership</h1>
+                <h1>Sign Up for BioGrowth <br> Membership</h1>
                 <div class="name">
-                    <div class="username">
-                        <label for="">Username</label><br>
-                        <input type="text" placeholder="Enter your Username">
+                    <div class="firstname">
+                        <label for="">First name</label><br>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="lastname">
+                        <label for="">Last name</label><br>
+                        <input type="text" placeholder="Enter your last name">
                     </div>
                 </div>
                 <div class="other-info">
-                    <div class="password">
-                        <label for="">password</label><br>
-                        <input type="text" placeholder="Enter your passsword">
+                    <div class="phonenumber">
+                        <label for="">Phone number</label><br>
+                        <input type="text" placeholder="Enter your phone number">
+                    </div>
+                    <div class="email">
+                        <label for="">Email Address</label><br>
+                        <input type="text" placeholder="Enter your email address">
                     </div>
                 </div>
                 <button>continue</button><br>
-                <h4>Don't Have an Account ? <a href="../signup/signup.html">sign up</a></h4>
+                <h4>Already Have an Account ? <a href="./login.html">Log in</a></h4>
             </form>
             <div class="signup-image">
-                <img src="../images/login-image.jpeg" alt="">
+                <img src="./images/auth-image.jpeg" alt="">
             </div>
             
         </div>
@@ -63,6 +71,6 @@
 
         </div>
     </div>
-    <script src="login.js"></script>
+    <script src="signup.js"></script>
 </body>
 </html>

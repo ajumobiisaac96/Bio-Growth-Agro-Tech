@@ -129,6 +129,7 @@
     font-weight: 600;
     line-height: 36px;
     text-align: left;
+    margin-bottom: 20px;
     color: #2E2E2E;   
 }
 
@@ -144,4 +145,354 @@
     width: 504px;
     height: 633px;
     border-radius: 16px;
+}
+
+
+.our-story{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
+}
+
+#our-story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+#our-story h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #2E2E2E;   
+}
+
+#our-story h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #4E4E4E;
+}
+
+.our-story img{
+    width: 504px;
+    height: 633px;
+    border-radius: 16px;
+}
+
+.why-biogrowth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.why-biogrowth h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #2E2E2E;
+}
+
+#why-choose-bio-growth{
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.why-1{
+    width: Fixed (371px)px;
+    height: Fixed (184px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 16px;
+    margin-right: 30px;
+    border: 2px solid #A8D26F;
+    margin-bottom: 30px;
+}
+
+.why-1 h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #2E2E2E;
+    margin-bottom: 10px;
+}
+
+.why-1 h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+
+.our-committment{
+    text-align: center;
+}
+
+.our-committment h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #2E2E2E;
+    margin-bottom: 20px;
+}
+
+.our-committment h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #4E4E4E;
+}   
+
+.newsletter{
+    margin-top: 40px;
+    margin-left: 17rem;
+}
+
+.newsletter h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color:#2E2E2E;
+}
+
+.newsletter-user-info{
+    display: flex;
+    justify-content: space-between;
+    width: 703px;
+    height: 72px;
+    top: 60px;
+    padding: 16px 24.24px 16px 24px;
+    border-radius: 64px;
+    border: 1px solid #2E2E2E;
+    margin-bottom:40px;
+
+    
+}
+
+.newsletter-user-info input{
+    border: none;
+    font-size: 15.76px;
+    font-weight: 600;
+    line-height: 23.64px;
+    text-align: center;
+    outline: none;
+    color: #2E2E2E;
+}
+
+.newsletter-user-info input::placeholder{
+    color: #2E2E2E;
+}
+
+.newsletter-user-info button{
+    width: Hug (120.29px)px;
+    height: Hug (39.76px)px;
+    top: 16.75px;
+    left: 559.6px;
+    padding: 7.88px 23.64px 7.88px 23.64px;
+    gap: 3.94px;
+    border-radius: 35px;
+    background-color: #004C1F;
+    font-family: Poppins;
+    font-size: 15.76px;
+    font-weight: 600;
+    line-height: 23.64px;
+    text-align: center;
+    color: #F3F4E5;
+}
+
+.connect{
+    margin-left: 17rem;
+}
+
+.connect h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.connect-with-us{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.connect-with-us i{
+    margin-top: 15px;
+    font-size: 25px;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+.connect-with-us a{
+    color: #2E2E2E;
+}
+
+.footer{
+    background-color:#D7E5BE;
+    margin-top: 40px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-info-1{
+    padding-left: 300px;
+    display: flex;
+
+}
+
+.footer-info-1 a{
+    text-decoration: none;
+    color: #060606;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    padding-right: 150px;
+}
+
+.footer-info-2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 420px;
+    background-color: #D7E5BE;
+    padding-top: 40px;
+}
+
+.footer-info-2-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info-2-link a{
+    padding-right: 140px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.footer-info-2-link-contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: -35px;
+    margin-right:95px ;
+}
+
+.footer-info-2-link-contact a{
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.footer-info-2-link-newsletter{
+    display: flex;
+    flex-direction: column;
+}   
+
+.footer-info-2-link-newsletter input{
+    border: none;
+    width: 360.58px;
+    height: 60.1px;
+    top: 205px;
+    left: 941px;
+    padding: 14.78px 37.44px 13.79px 31.53px;
+    border-radius: 16px;
+    outline: none;    
+}
+
+.footer-info-2-link-newsletter::placeholder{
+    font-size: 15.76px;
+    font-weight: 400;
+    line-height: 23.64px;
+    text-align: left;
+    color: #000000;
+}
+
+
+.footer-info-2-link-newsletter a{
+    padding-right: 140px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}   
+
+#newsletter-button{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-btn{
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding: 40px;
+    border: 2px solid #2E2E2E;
+    background-color:#004C1F;
+    color:#FFFFFF;
+    width: 50px;
+    height: 39.76px;
+    padding: 7.88px 15.76px 7.88px 15.76px;
+    gap: 7.88px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-detail{
+    color: #060606;
+    font-size: 15.76px;
+    font-weight: 500;
+    line-height: 23.64px;
+    text-align: left;
+    background-color:#D7E5BE;
+    color: #060606;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.footer img{
+    margin-left: 20px;
+    width: 37px;
+    height: 56px;
 }
