@@ -39,7 +39,7 @@ accordions.forEach((acco) => {
   };
 });
 
-let cartInfo = document.querySelectorAll(".purchase-button");
+let cartInfo = document.getElementById("purchase-button");
 let productDescription = document.querySelectorAll(".product-description")
 
 cartInfo.addEventListener('click', () => {
