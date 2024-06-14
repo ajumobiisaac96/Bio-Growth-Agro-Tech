@@ -17,7 +17,7 @@ body{
     border: 1px solid #2E2E2E;
     border-radius: 8px;
     margin: 12rem 35rem;
-    height: 300px;
+    height: 400px;
 
 }
 
@@ -31,52 +31,58 @@ body p{
     margin-top: 40px;
 }
 
+body h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2E2E2E;
+
+}
+
 .logout-btn{
     display: flex;
     justify-content: center;
 }
 
 #btn-1{
-    width: 68px;
-    height: 37px;
+    width: 122px;
+    height: 44px;
     top: 171px;
     left: 154px;
     padding: 8px;
     gap: 10px;
     border-radius: 8px;
-    border: 1px solid #FF0000;
-    color: #FF0000;
-    background-color: transparent;
+    border: none;
+    color:#F3F4E5;
+    background-color: #004C1F;
     margin-right: 20px;
     cursor: pointer;
 }
 
 #btn-1:hover{
-    background-color: #FF0000;
-    color: #F3F4E5;
-    transition: 0.3s;
+    width: 123px;
+    height: 45px;
+    transition: 0.2s;
 }
 
 #btn-2{
-    width: 66px;
-    height: 37px;
-    cursor: pointer;
-    top: 171px;
-    left: 246px;
-    padding: 8px;
+    width: 81px;
+    height: 46px;
+    top: 235px;
+    left: 254px;
+    padding: 10px 0px 0px 0px;
     gap: 10px;
     border-radius: 8px;
-    background-color: #2E2E2E;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #F3F4E5;
-    text-align: left;
+    border: 1px solid #4E4E4E;
+    background-color: transparent; 
+    cursor: pointer;  
 }
 
 #btn-2:hover{
-    width: 68px;
-    height: 40px;
+    width: 82px;
+    height: 47px;
     transition: 0.3s;
 }
 
