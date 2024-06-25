@@ -1,9 +1,9 @@
 function signup(){
-    location.href = '../Auth-Page/signup.html'
+    location.href = './pages/signup.html'
 }
 
 function login(){
-    location.href = '../Auth-Page/login.html' 
+    location.href = './pages/login.html' 
 }
 
 let accordions = document.querySelectorAll(".accordion-wrapper .accordion");

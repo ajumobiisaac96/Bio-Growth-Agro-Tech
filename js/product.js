@@ -3,5 +3,5 @@ function signup(){
 }
 
 function login(){
-    location.href = '../pages/login.html' 
+    location.href = '../pages/login.html'
 }
