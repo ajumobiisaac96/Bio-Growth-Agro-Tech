@@ -11,6 +11,12 @@
     scroll-behavior: smooth;
 }
 
+body {
+    transform: scale(1.0);
+    transform-origin: 0 0;
+  }
+  
+
 .hero{
     height: 100vh;
     width: 100%;
