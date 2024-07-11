@@ -34,50 +34,24 @@ document.addEventListener('DOMContentLoaded', function() {
   setInterval(showNextSlide, 5000);
 });
 
+const toggleBtn = document.querySelector('.toggle_btn');
+const toggleBtnIcon = document.querySelector('.toggle_btn .icon');
+const dropDownMenu = document.querySelector('.dropdown_menu');
 
 
+dropDownMenu.style.display = 'none';
+
+toggleBtn.onclick = function() {
+    if (dropDownMenu.style.display === 'none') {
+        dropDownMenu.style.display = 'block';
+        toggleBtnIcon.className = 'fa-solid fa-xmark'; // Update icon to close
+    } else {
+        dropDownMenu.style.display = 'none';
+        toggleBtnIcon.className = 'fa-solid fa-bars'; // Update icon to open
+    }
+};
 
 
-
-
-
-
-
-
-
-// function changer(){
-//     let firstTestimonial = document.getElementById('slide-active');
-//     let secondTestimonial = document.getElementById('slide');
-//     secondTestimonial.style.display ='flex';
-//     firstTestimonial.style.display = 'none';
-// }
-
-//  setInterval(changer, 2000);
-
-
-
-
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   const slides = document.querySelectorAll('.testimonial-slider .slide');
-//   let currentIndex = 0;
-//   const intervalTime = 1000;
-
-//   function showSlide(index) {
-//       slides.forEach((slide, i) => {
-//           slide.classList.toggle('active', i === index);
-//       });
-//   }
-
-//   function nextSlide() {
-//       currentIndex = (currentIndex + 1) % slides.length;
-//       showSlide(currentIndex);
-//   }
-
-//   setInterval(nextSlide, intervalTime);
-
-//   showSlide(currentIndex);
-// });
 
 
 
