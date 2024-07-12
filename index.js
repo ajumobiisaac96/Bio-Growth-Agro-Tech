@@ -47,7 +47,7 @@ toggleBtn.onclick = function() {
         toggleBtnIcon.className = 'fa-solid fa-xmark'; // Update icon to close
     } else {
         dropDownMenu.style.display = 'none';
-        toggleBtnIcon.className = 'fa-solid fa-bars'; // Update icon to open
+        toggleBtnIcon.className = 'fa-solid fa-bars'; 
     }
 };
 
