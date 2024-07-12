@@ -2056,10 +2056,11 @@
     .consulting-flex{
         display: flex;
         justify-content: space-between;
+        width: 100vw;
     }
     
     .flex-1 img{
-        width: 300px;
+        width: 30px;
         height: 240px;
         top: 3350.63px;
         left: 137.58px;
@@ -2548,9 +2549,10 @@
 
 
 
-@media (max-width:1200px){
+@media (max-width:  1200px){
     body{
         overflow-x: hidden;
+
     }
 
     header{
@@ -3633,7 +3635,7 @@
         padding-top: 50px;
         display: flex;
         align-items: center;
-        width:1200px
+        width:100vw;
     }
     
     .footer-info-1{
@@ -3648,7 +3650,7 @@
         font-size: 14px;
         font-weight: bold;
         line-height: 27px;
-        padding-right: 150px;
+        padding-right: 120px;
     }
     
     .footer-info-1 a:hover{
@@ -3669,7 +3671,7 @@
         padding-left: 220px;
         background-color: #D7E5BE;
         padding-top: 40px;
-        width: 1200px;
+        width: 100vw;
     }
     
     .footer-info-2-link{
@@ -3837,7 +3839,7 @@
     }
 }
 
-@media (max-width:576px){
+@media (max-width:578px){
     body{
         overflow-x: hidden;
     }
@@ -3845,5 +3847,119 @@
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+
+    .hero-info{
+        margin-top: 20px;
+    }
+    
+    .hero-info h1{
+        font-size:26px ;
+    }
+
+    .hero-info h3{
+        font-size: 18px;
+    }
+
+    .hero-button{
+        margin-top: 80px;
+    }
+
+    .subsection{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .achievment h1{
+        font-size: 16px;
+    }
+
+    .achievment h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .achievment div{
+        margin-right: 14px;
+    }
+
+    .about-us{
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .about-us span{
+        font-size: 16px;
+        line-height:24px ;
+    }
+
+    #At-Biotech h3{
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+    }
+
+    #At-Biotech button{
+        margin-left: 100px
+    }
+    .subscription-plan h1{
+        font-size: 16px;
+    }
+
+    .pricing{
+        margin-top: 15px;
+        border: 1px solid #2E2E2E;
+        border-radius: 7.88px;
+        padding: 10px;
+    }
+
+    #Monthly{
+        font-size: 16px;
+        font-weight: 600;
+        width: 180px;
+        height: 40px;
+        border-radius: 7.88px;
+    }
+
+    #Annual{
+        font-size: 16px;
+        font-weight: 600;
+        width: 180px;
+        height: 40px;
+        border-radius: 7.88px;  
+    }
+    
+    .plans{
+        flex-direction: column;
+    }
+
+    .growth-plan{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Pro-plan{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Elite-plan{
+        width: 100%;
+    }
+
+    #our-products{
+        margin-left:60px;
+        Width: 200px;
+        Height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .frame-4{
+        flex-direction: column;
+    }
+    
+    .frame-4-info{
+        flex-direction: column;
     }
 }
