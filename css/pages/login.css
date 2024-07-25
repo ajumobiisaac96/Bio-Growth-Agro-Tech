@@ -300,3 +300,569 @@
     color: #004C1F;
 }
 
+@media(max-width:1900px){
+    body{
+        overflow-x: hidden;
+    }
+
+    li{
+       list-style: none; 
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #004C1F;
+        font-weight: bold;
+        position: relative;
+        top: -5px;
+        transition: 2s;
+    }
+
+    .space{
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        width: 80%;
+        height: 76px;
+        max-width: 1200px;
+        margin-left:7rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        border-radius: 81px;
+        border: 1px solid #004C1F;
+    }
+
+    .navbar .logo a{
+        font-size: 1rem;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 37px;
+        height: 56px;
+    }
+
+    .navbar .links{
+        display: flex;
+    }
+
+    .links li a{
+        display: inline;
+        margin-right: 30px;
+        font-weight: 500;
+        justify-content: space-between;
+
+    }
+
+    .action_btn:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#fff;
+        background-color: #004C1F;
+    }
+
+    .action_btn{
+        border: 3px solid green;
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+        margin-left: -9rem;
+    }
+
+    .action_btn-1{
+        background-color:#004C1F;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+    }
+
+    .action_btn-1:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#004C1F;
+        background-color: #fff;
+    }
+
+    .toggle_btn{
+        display: none;
+    }
+
+    .dropdown_menu{
+        display: none;
+    }
+
+    .signup-form{
+        margin-right: 3rem;
+    }
+
+    .signup-info{
+        margin-left: 7rem;
+    }
+
+    .username input{
+        width: 400px;
+    }
+
+    .password input{
+        width: 400px;
+    }
+
+    .signup-form button{
+        width: 400px;
+    }
+
+    .signup-image img{
+        height: 480px;
+    }
+}
+
+@media (max-width: 1200px){
+    body{
+        overflow-x: hidden;
+
+    }
+
+    header{
+        height: 100vh;
+        background-image: url(images/background-image.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 0 2rem;
+    }
+
+    li{
+       list-style: none; 
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #004C1F;
+        font-weight: bold;
+        position: relative;
+        top: -5px;
+        transition: 2s;
+    }
+
+    .space{
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        width: 77%;
+        height: 76px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        border-radius: 81px;
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .navbar .logo a{
+        font-size: 1rem;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .links{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .links li a{
+        display: inline;
+        margin-right: 40px;
+        font-weight: 500;
+        justify-content: space-between;
+
+    }
+
+    .action_btn:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#fff;
+        background-color: #004C1F;
+    }
+
+    .action_btn{
+        border: 3px solid green;
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+        margin-left: -2rem;
+    }
+
+    .action_btn-1{
+        background-color:#004C1F;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+    }
+
+    .action_btn-1:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#004C1F;
+        background-color: #fff;
+    }
+
+    .name{
+        flex-direction: column;
+    }
+
+    .other-info{
+        flex-direction: column;
+    }
+
+    .firstname input{
+        margin-bottom: 1.5rem;
+        width: 400px;
+    }
+
+    .firstname input::placeholder{
+        font-size: 14px;
+    }
+
+    .phonenumber input{
+        margin-bottom: 1.5rem;
+        width: 400px;
+    }
+
+    .phonenumber input::placeholder{
+            font-size: 14px;
+    }
+
+    .lastname input{
+        width: 400px;
+    }
+
+    .lastname input::placeholder{
+        font-size: 14px;
+    }
+
+    .email input{
+        width: 400px;
+    } 
+
+    .email input::placeholder{
+        font-size: 14px;
+    }
+
+    .signup-info button, .personal-info-1 button, .personal-info-2 button{
+        width: 400px;
+        margin-top: 1rem;
+    }
+
+    .signup-info button:hover, .personal-info-1 button:hover, .personal-info-2 button:hover{
+        width: 13rem;
+    }
+
+    .signup-info h4, .personal-info-1 h4, .personal-info-2 h4{
+        margin-left: -28rem;
+        margin-top: -1rem;
+    }
+
+    .signup-image img{
+        margin-top: 5rem;
+        margin-left: -15rem;
+        width: 450px;
+    }
+}
+
+@media (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .links li a, .action_btn-1, .action_btn{
+        display: none;
+    }
+
+    .navbar{
+        margin-left: 6rem;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+    .dropdown_menu li a{
+        display: block;
+    }
+
+    .signup-image img{
+        display: none;
+    }
+
+    .firstname input{
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    .firstname input::placeholder{
+        font-size: 14px;
+    }
+
+    .phonenumber input{
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    .phonenumber input::placeholder{
+            font-size: 14px;
+    }
+
+    .lastname input{
+        width: 100%;
+    }
+
+    .lastname input::placeholder{
+        font-size: 14px;
+    }
+
+    .email input{
+        width: 15rem;
+    } 
+
+    .email input::placeholder{
+        font-size: 14px;
+    }
+
+    .signup-info button, .personal-info-1 button, .personal-info-2 button{
+        width: 25rem;
+        margin-top: 1rem;
+    }
+
+    .signup-info button:hover, .personal-info-1 button:hover, .personal-info-2 button:hover{
+        width: 25rem;
+    }
+    .signup-info h4, .personal-info-1 h4, .personal-info-2 h4{
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 578px) {
+    body{
+        margin-left: 2rem;
+    }
+
+    .navbar {
+        margin-left:2rem;
+        padding: 1rem;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1rem;
+        width: 16rem;
+    }
+
+    #left-space {
+        margin-left:3.5rem;
+        font-size: 16px;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu li a{
+        display: block;
+    }
+
+    .dropdown_menu{
+        position: absolute;
+        padding: 1rem;
+        right: 3rem;
+        top: 150px;
+        height: 75vh;
+        width: 19rem;
+        background: rgba(255, 255, 255, 0.425);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .dropdown_menu .open{
+        height: 100px;
+    }
+
+    .dropdown_menu li a{
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        color:#000000;
+    }
+
+    .dropdown_menu .action_btn-1{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        margin-left: 4rem;
+    }
+
+    .dropdown_menu .action_btn{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 4rem;
+    }
+
+    #nav-bar ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-bar ul li {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    #btn-1, #btn-2 {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .signup-info {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 13rem;
+    }
+
+    .signup-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sign-up-result-1, .failed {
+        width: 100%;
+        margin: 0;
+    }
+
+    .sign-up-result-1 p, .sign-up-result-1 h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .sign-up-result-1 i {
+        font-size: 200px;
+    }
+
+    .failed i {
+        color: #FF0000;
+    }
+
+    .my-button {
+        flex-direction: column;
+    }
+
+    .update-btn, .add-later-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .progress-bar h5 {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .signup-form h1 {
+        font-size: 20px;
+    }
+
+    .name input, .other-info input {
+        width: 15rem;
+    }
+
+    .signup-form button {
+        width: 15rem;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .signup-form h4 {
+        font-size: 14px;
+        padding-top: 20px;
+        margin-left:-3.5rem;
+    }
+}

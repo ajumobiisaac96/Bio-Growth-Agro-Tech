@@ -885,28 +885,28 @@ text-align: center;
     .signup-info h4, .personal-info-1 h4, .personal-info-2 h4{
         text-align: center;
     }
-
-
 }
 
-@media (max-width:578px){
+@media (max-width: 578px) {
     body{
-        overflow-x: hidden;
+        margin-left: 2rem;
     }
 
-    .links li a, .action_btn-1, .action_btn{
-        display: none;
+    .navbar {
+        margin:0;
+        padding: 1rem;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1rem;
+        width: 19rem;
     }
 
-    .navbar{
-        margin-left: 2.5rem;
+    #left-space {
+        margin-left:3.5rem;
+        font-size: 16px;
     }
 
     .navbar .toggle_btn{
-        display: block;
-    }
-
-    .dropdown_menu{
         display: block;
     }
 
@@ -915,13 +915,12 @@ text-align: center;
     }
 
     .dropdown_menu{
-        display: none;
         position: absolute;
         padding: 1rem;
         right: 3rem;
         top: 150px;
         height: 75vh;
-        width: 400px;
+        width: 19rem;
         background: rgba(255, 255, 255, 0.425);
         backdrop-filter: blur(15px);
         border-radius: 10px;
@@ -945,7 +944,7 @@ text-align: center;
         width: 50%;
         justify-content: center;
         display: flex;
-        margin-left: 7rem;
+        margin-left: 4rem;
     }
 
     .dropdown_menu .action_btn{
@@ -953,46 +952,97 @@ text-align: center;
         justify-content: center;
         display: flex;
         margin-top: 20px;
-        margin-left: 7rem;
+        margin-left: 4rem;
     }
 
-    .signup-form{
-        margin-left:-4rem;
+    #nav-bar ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .signup-form h1{
+    #nav-bar ul li {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    #btn-1, #btn-2 {
+        width: 100%;
         font-size: 16px;
-        line-height: 20px;
+        padding: 10px;
     }
 
-    .firstname input{
-        margin-bottom: 1.5rem;
-        width: 300px;
+    .signup-info {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .phonenumber input{
-        margin-bottom: 1.5rem;
-        width: 300px;
+    .signup-image img {
+        width: 100%;
+        height: auto;
     }
 
-    .lastname input{
-        width: 300px;
-    }
-    .email input{
-        width: 300px;
-    } 
-
-    .signup-info button, .personal-info-1 button, .personal-info-2 button{
-        width: 300px;
-        margin-top: 1rem;
+    .sign-up-result-1, .failed {
+        width: 100%;
+        margin: 0;
     }
 
-    .signup-info button:hover, .personal-info-1 button:hover, .personal-info-2 button:hover{
-        width: 300px;
+    .sign-up-result-1 p, .sign-up-result-1 h4 {
+        font-size: 18px;
+        line-height: 28px;
     }
 
-    .signup-image img{
-        display: none;
+    .sign-up-result-1 i {
+        font-size: 200px;
     }
 
+    .failed i {
+        color: #FF0000;
+    }
+
+    .my-button {
+        flex-direction: column;
+    }
+
+    .update-btn, .add-later-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .progress-bar h5 {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .signup-form h1 {
+        font-size: 20px;
+    }
+
+    .name input, .other-info input {
+        width: 19rem;
+    }
+
+    .signup-form button {
+        width: 19rem;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .signup-form button:hover{
+        width: 19rem;
+    }
+
+    .signup-form h4 {
+        font-size: 14px;
+        padding-top: 20px;
+        margin-left:-7rem;
+    }
 }

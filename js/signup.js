@@ -1,9 +1,9 @@
 function login(){
-    location.href = '/pages/login.html'
+    location.href = './pages/login.html'
 }
 
 function signup(){
-    location.href = '/pages/signup.html'
+    location.href = './pages/signup.html'
 }
 
 const toggleBtn = document.querySelector('.toggle_btn');
