@@ -152,7 +152,7 @@
 
 nav{
     margin-top: 40px;
-    width: Fixed (958px)px;
+    width: 900px;
     height: Hug (72px)px;
     top: 240px;
     left: 223.5px;
@@ -1353,6 +1353,8 @@ hr{
 } 
 
 @media(max-width:1200px){
+
+
     li{
         list-style: none; 
      }
@@ -1466,7 +1468,7 @@ hr{
          top: 150px;
          height: 75vh;
          width: 400px;
-         background: rgba(255, 255, 255, 0.1);
+         background:#FFFFFF;
          backdrop-filter: blur(15px);
          border-radius: 10px;
          overflow: hidden;
@@ -1498,7 +1500,6 @@ hr{
          margin-top: 20px;
          margin-left: 0rem;
      }
-
 
      #first-info{
         margin-left: 7.5rem;
@@ -1963,6 +1964,7 @@ hr{
 @media(max-width:578px){
     body{
         overflow-x: hidden;
+
     }
 
     .dropdown_menu{
@@ -1986,6 +1988,7 @@ hr{
     nav{
         width: 16rem;
         margin-left: 2rem;
+        margin-right: -5rem;
     }
 
     nav ul li{
@@ -1999,6 +2002,8 @@ hr{
 
     .frame-4{
         margin-left: 2rem;
+        margin-right: -5rem;
+        margin-top: 7rem;
         flex-direction: column;
         width: 16rem;
 
@@ -2009,7 +2014,7 @@ hr{
     }
 
     .frame-4-info h4{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .frame-4-img img{
@@ -2020,13 +2025,14 @@ hr{
     .growth-plan-product{
         width: 1px;
         margin-left:26rem;
+        margin-right: -5rem;
         flex-direction: column;
     }
 
     .product-1{
         width: 17rem;
         margin-left: -31rem;
-        margin-bottom: -10px;
+        margin-bottom: -5rem;
     }
 
     .footer {
@@ -2034,6 +2040,7 @@ hr{
         flex-direction: column;
         padding: 10px;
         margin-left: -3rem;
+        margin-top: 7rem;
         width: 26.5rem;
     }
 

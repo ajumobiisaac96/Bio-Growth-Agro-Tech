@@ -921,7 +921,7 @@ text-align: center;
         top: 150px;
         height: 75vh;
         width: 19rem;
-        background: rgba(255, 255, 255, 0.425);
+        background:#FFFFFF;
         backdrop-filter: blur(15px);
         border-radius: 10px;
         overflow: hidden;
