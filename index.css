@@ -4109,16 +4109,15 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
-        margin-left: -3rem;
-        width: 26.5rem;
+        width:35rem;
     }
 
     .footer img{
-        margin-left: -3rem;
+        margin-left: -20rem;
     }
 
     .footer h5{
-        margin-left: -4rem;
+        margin-left: -20rem;
         margin-bottom: 1rem;
     }
 
@@ -4129,12 +4128,13 @@
     }
 
     .footer-info-1 a {
-        margin-bottom: 10px;
+        margin-bottom: 14px;
         text-align: justify; /* Justify text for these links */
+        margin-left: -14.5rem;
     }
 
     .footer-info-2 {
-        width: 28.5rem;
+        width: 36rem;
         margin-top: -3rem;
         margin-left: -5rem;
         display: grid;

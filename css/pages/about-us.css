@@ -721,6 +721,21 @@
         margin-top: 50px;
      }
 
+     .hero h2{
+        margin-left: 4rem;
+        margin-right: 4rem;
+     }
+
+     .our-committment{
+        margin-left: 7rem;
+        margin-right: 7rem;
+     }
+
+     .Join-us{
+        margin-right: 7rem;
+        margin-left: 7rem;
+     }
+
      .footer{
         background-color:#D7E5BE;
         margin-top: 40px;
@@ -1170,7 +1185,7 @@
         height:500px;
     }
     .navbar {
-        margin-left:3.5rem;
+        margin-left:3rem;
         padding: 1rem;
         flex-direction: row;
         align-items: center;
@@ -1179,7 +1194,7 @@
     }
 
     #left-space {
-        margin-left:3.5rem;
+        margin-left:3rem;
         font-size: 16px;
     }
 
@@ -1196,11 +1211,13 @@
         width: 250px;
         height: 320px;
     }
-
+    .hero h1{
+        text-align: center;
+    }
     .hero h2{
         font-size: 14px;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        text-align: center;
+        margin-left: 2rem;
         line-height: 21px;
     }
 
@@ -1208,7 +1225,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left:2rem;
+        margin-left:1rem;
         margin-right:1rem;
         margin-top: 1rem;
     }
@@ -1219,9 +1236,10 @@
     }
 
     .our-team img{
-        width: 326px;
-        height: 434px;
+        width:280px;
+        height: 334px;
         border-radius: 16px;
+        margin-left: -3rem;
     }
 
     .our-story{
@@ -1250,13 +1268,15 @@
     }
 
     .our-story img{
-        width: 325.55px;
-        height: 434px;
-        border-radius: 16px;       
+        width:270px;
+        height: 300px;
+        border-radius: 16px;    
+        margin-left: 0.1rem;   
     }
 
     .why-biogrowth h1{
         text-align: center;
+        font-size: 18px;
     }
 
     #why-choose-bio-growth{
@@ -1266,7 +1286,7 @@
     }
 
     .why-1{
-        width: 288px;
+        width: 250px;
         height: 184px;
         padding: 8px 16px 8px 16px;
         gap: 16px;
@@ -1284,18 +1304,25 @@
         margin-right: 2rem;
     }
 
-    .Join-us {
-        margin-right: 0;
+    .our-committment h1{
+        font-size: 16px;
+    }
+
+    .our-committment h2{
+        font-size: 14px;
+        margin-right:2rem ;
     }
 
     .Join-us h1{
         text-align: center;
+        font-size: 16px;
     }
 
     .Join-us h2{
         text-align: center;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 14px;
     }
 
     .newsletter{
