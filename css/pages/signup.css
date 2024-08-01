@@ -889,16 +889,13 @@ text-align: center;
 
 @media (max-width: 578px) {
     body{
-        margin-left: 2rem;
+        overflow-x: hidden;
+
     }
 
     .navbar {
-        margin:0;
-        padding: 1rem;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 1rem;
-        width: 19rem;
+        width: 80%;
+        margin: 2rem;
     }
 
     #left-space {
@@ -915,16 +912,8 @@ text-align: center;
     }
 
     .dropdown_menu{
-        position: absolute;
-        padding: 1rem;
-        right: 3rem;
-        top: 150px;
-        height: 75vh;
-        width: 19rem;
-        background:#FFFFFF;
-        backdrop-filter: blur(15px);
-        border-radius: 10px;
-        overflow: hidden;
+        left: 2rem;
+        width: unset;
     }
 
     .dropdown_menu .open{
@@ -975,7 +964,10 @@ text-align: center;
 
     .signup-info {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        width: 80%;
+        margin-left: 1rem;
+        overflow-x: hidden
     }
 
     .signup-image img {
@@ -1018,8 +1010,13 @@ text-align: center;
     }
 
     .progress-bar h5 {
-        margin-right: 0;
-        font-size: 14px;
+        margin-right: -3rem;
+        font-size: 15px;
+    }
+
+    #chart{
+        margin-right: 2rem;
+        width: 120px;
     }
 
     .signup-form h1 {
@@ -1027,22 +1024,29 @@ text-align: center;
     }
 
     .name input, .other-info input {
-        width: 19rem;
+        width: 80%;
     }
 
     .signup-form button {
-        width: 19rem;
+        width: 80%;
         font-size: 14px;
         padding: 10px;
     }
 
     .signup-form button:hover{
-        width: 19rem;
+        width: 100%;
     }
 
     .signup-form h4 {
         font-size: 14px;
         padding-top: 20px;
-        margin-left:-7rem;
+        margin-left:-3rem;
+    }
+
+    .signup-form{
+        margin-left: 2rem;
+        width: 100%;
+        overflow-x: hidden;
+
     }
 }

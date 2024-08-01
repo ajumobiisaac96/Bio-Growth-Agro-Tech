@@ -226,14 +226,14 @@
 #Cultivating-innovation{
     align-items: center;
     justify-items: center;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin-top: 40px;
     line-height: 36px;
 }
 
 #Cultivating-innovation span {
-    margin-left: 200px;
+    margin-left: 100px;
     color: #2E2E2E;
     line-height: 36px;
     font-weight: 500;
@@ -264,12 +264,12 @@
     cursor: pointer;
 }
 
-.arrow {
+/* .arrow {
     position: absolute;
     top: 50%;
     right: 5px;
     transform: translateY(-50%);
-}
+} */
 
 #At-Biotech button:hover{
     position: relative;
@@ -734,4 +734,997 @@
     margin-left: 20px;
     width: 37px;
     height: 56px;
+}
+
+@media(max-width:1900px){
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        height: 100vh;
+        background-image: url(images/background-image.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 0 2rem;
+    }
+
+    li{
+       list-style: none; 
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #004C1F;
+        font-weight: bold;
+        position: relative;
+        top: -5px;
+        transition: 2s;
+    }
+
+    .space{
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 76px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        border-radius: 81px;
+        border: 1px solid #2E2E2E;
+    }
+
+    .logo img{
+        width: 37px;
+        height: 56px;
+    }
+
+    .navbar .logo a{
+        font-size: 1rem;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .links{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .links li a{
+        display: inline;
+        margin-right: 40px;
+        font-weight: 500;
+        justify-content: space-between;
+
+    }
+
+    .action_btn:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#fff;
+        background-color: #004C1F;
+    }
+
+    .action_btn{
+        border: 3px solid green;
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+        margin-left: -12rem;
+    }
+
+    .action_btn-1{
+        background-color:#004C1F;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+    }
+
+    .action_btn-1:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#004C1F;
+        background-color: #fff;
+    }
+
+    .dropdown_menu{
+        display: none;
+        position: absolute;
+        right: 5rem;
+        top: 10px;
+        height: 0;
+        width: 400px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+
+    .toggle_btn{
+        display: none;
+    }
+
+    .dropdown_menu{
+        display: none;
+    }
+
+    #consulting h3{
+        color: #2E2E2E;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: left;
+    }
+    
+    #consulting h5{
+        color: #2E2E2E;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .consulting-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-1{
+        width: 15rem;
+    }
+    
+    .flex-1 img{
+        width: 20rem;
+        height: 240px;
+        top: 3350.63px;
+        left: 137.58px;
+        border-radius: 11.82px;
+    }
+    
+    .flex-1 h3{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 35.47px;
+        text-align: left;
+        color: #2E2E2E;
+    }
+    
+    .flex-1 h5{
+        font-size: 15.76px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color:#4E4E4E;
+    }
+    
+    .consulting-buttons button{
+        border: 1px solid #004C1F;
+        color: #004C1F;
+        width: 150px;
+        padding: 5px;
+        border-radius:40px;
+        font-weight: 600;
+        margin-right: 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .consulting-buttons button:hover{
+        border: 1px solid #004C1F;
+        color: #FFFFFF;
+        width: 150px;
+        padding: 5px;
+        border-radius:40px;
+        font-weight: 600;
+        margin-right: 20px;
+        font-size: medium;
+        cursor: pointer;
+    }
+    
+    .footer{
+        background-color:#D7E5BE;
+        margin-top: 40px;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-info-1{
+        padding-left: 100px;
+        display: flex;
+
+    }
+
+    .footer-info-1 a{
+        text-decoration: none;
+        color: #060606;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 27px;
+        padding-right: 150px;
+    }
+
+    .footer-info-1 a:hover{
+        text-decoration: none;
+        color: #004C1F;
+        font-weight: bold;
+        transition: 0.2s;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 27px;
+        padding-right: 150px;
+    }
+
+
+    .footer-info-2{
+        display: flex;
+        flex-direction: row;
+        padding-left: 270px;
+        background-color: #D7E5BE;
+        padding-top: 40px;
+    }
+
+    .footer-info-2-link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-info-2-link a{
+        padding-right: 120px;
+        padding-bottom: 10px;
+        color: #2E2E2E;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    .footer-info-2-link a:hover{
+        padding-right: 140px;
+        padding-bottom: 10px;
+        color: #004C1F;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    .footer-info-2-link-contact{
+        display: flex;
+        flex-direction: column;
+        margin-left: -35px;
+        margin-right:95px ;
+    }
+
+    .footer-info-2-link-contact a{
+        padding-bottom: 10px;
+        color: #2E2E2E;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .footer-info-2-link-contact a:hover{
+        padding-bottom: 10px;
+        color: #004C1F;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+
+
+    .footer-info-2-link-newsletter{
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .footer-info-2-link-newsletter input{
+        border: none;
+        width: 360.58px;
+        height: 60.1px;
+        top: 205px;
+        left: 941px;
+        padding: 14.78px 37.44px 13.79px 31.53px;
+        border-radius: 16px;
+        outline: none;    
+    }
+
+    .footer-info-2-link-newsletter::placeholder{
+        font-size: 15.76px;
+        font-weight: 400;
+        line-height: 23.64px;
+        text-align: left;
+        color: #000000;
+    }
+
+
+    .footer-info-2-link-newsletter a{
+        padding-right: 140px;
+        padding-bottom: 10px;
+        color: #2E2E2E;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }   
+
+    #newsletter-button{
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+    }
+
+    #subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe-btn{
+        position: relative;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-right: 20px;
+        padding: 40px;
+        border: 2px solid #2E2E2E;
+        background-color:#004C1F;
+        color:#FFFFFF;
+        width: 50px;
+        height: 39.76px;
+        padding: 7.88px 15.76px 7.88px 15.76px;
+        gap: 7.88px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .footer-detail{
+        color: #060606;
+        font-size: 15.76px;
+        font-weight: 500;
+        line-height: 23.64px;
+        text-align: left;
+        background-color:#D7E5BE;
+        color: #060606;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding: 30px;
+        font-weight: bold;
+    }
+
+    .footer img{
+        margin-left: 20px;
+        width: 37px;
+        height: 56px;
+    }
+        
+}
+
+@media(max-width:1200px){
+    body{
+        overflow-x: hidden;
+
+    }
+
+    li{
+       list-style: none; 
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #004C1F;
+        font-weight: bold;
+        position: relative;
+        top: -5px;
+        transition: 2s;
+    }
+
+    .space{
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 76px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        border-radius: 81px;
+    }
+
+    .navbar .logo a{
+        font-size: 1rem;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .links{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .links li a{
+        display: inline;
+        margin-right: 40px;
+        font-weight: 500;
+        justify-content: space-between;
+
+    }
+
+    .action_btn:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#fff;
+        background-color: #004C1F;
+    }
+
+    .action_btn{
+        border: 3px solid green;
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+        margin-left: -7rem;
+    }
+
+    .action_btn-1{
+        background-color:#004C1F;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: Hug (74px)px;
+        height: Hug (37px)px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 35px;
+        border: 1px solid #004C1F ;
+    }
+
+    .action_btn-1:hover{
+        scale: 1.05;
+        transition: 0.5s;
+        color:#004C1F;
+        background-color: #fff;
+    }
+
+    .dropdown_menu{
+        display: none;
+        position: absolute;
+        padding: 1rem;
+        right: 2rem;
+        top: 150px;
+        height: 75vh;
+        width: 400px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+    }  
+
+    #consulting h3{
+        font-size:30px ;
+    }
+
+    #consulting h5{
+        font-size: 14px;
+    }
+    
+    .consulting-page{
+        margin-left: 5rem;
+        margin-right: 8rem;
+    }
+
+    #At-Biotech{
+        margin-left: 4rem;
+    }
+
+    .footer{
+        background-color:#D7E5BE;
+        margin-top: 40px;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        width:100vw;
+    }
+    
+    .footer-info-1{
+        padding-left: 70px;
+        display: flex;
+    
+    }
+    
+    .footer-info-1 a{
+        text-decoration: none;
+        color: #060606;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 27px;
+        padding-right: 120px;
+    }
+    
+    .footer-info-1 a:hover{
+        text-decoration: none;
+        color: #004C1F;
+        font-weight: bold;
+        transition: 0.2s;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 27px;
+        padding-right: 150px;
+    }
+    
+    
+    .footer-info-2{
+        display: flex;
+        flex-direction: row;
+        padding-left: 220px;
+        background-color: #D7E5BE;
+        padding-top: 40px;
+        width: 100vw;
+    }
+    
+    .footer-info-2-link{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-info-2-link a{
+        padding-right: 100px;
+        padding-bottom: 10px;
+        color: #2E2E2E;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .footer-info-2-link a:hover{
+        padding-right: 140px;
+        padding-bottom: 10px;
+        color: #004C1F;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .footer-info-2-link-contact{
+        display: flex;
+        flex-direction: column;
+        margin-left: -35px;
+        margin-right:95px ;
+    }
+    
+    .footer-info-2-link-contact a{
+        padding-bottom: 10px;
+        color: #2E2E2E;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .footer-info-2-link-contact a:hover{
+        padding-bottom: 10px;
+        color: #004C1F;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    
+    .footer-info-2-link-newsletter{
+        display: flex;
+        flex-direction: column;
+    }   
+    
+    .footer-info-2-link-newsletter input{
+        border: none;
+        width: 160.58px;
+        height: 40.1px;
+        top: 205px;
+        left: 941px;
+        padding: 14.78px 37.44px 13.79px 31.53px;
+        border-radius: 16px;
+        outline: none;    
+    }
+    
+    .footer-info-2-link-newsletter::placeholder{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23.64px;
+        text-align: left;
+        color: #000000;
+    }
+    
+    
+    .footer-info-2-link-newsletter a{
+        padding-right: 140px;
+        padding-bottom: 10px;
+        color: #2E2E2E;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }   
+    
+    #newsletter-button{
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+    }
+    
+    #subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subscribe-btn{
+        position: relative;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-right: 20px;
+        padding: 40px;
+        border: 2px solid #2E2E2E;
+        background-color:#004C1F;
+        color:#FFFFFF;
+        width: 50px;
+        height: 39.76px;
+        padding: 7.88px 15.76px 7.88px 15.76px;
+        gap: 7.88px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .footer-detail{
+        color: #060606;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23.64px;
+        text-align: left;
+        background-color:#D7E5BE;
+        color: #060606;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding: 30px;
+        font-weight: bold;
+    }
+    
+    .footer img{
+        margin-left: 20px;
+        width: 37px;
+        height: 56px;
+    } 
+
+}
+
+@media (max-width:1080px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .links li a, .action_btn-1, .action_btn{
+        display: none;
+    }
+
+    .navbar{
+    width:80% ;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+        width: 80%;
+        margin-right: 4rem;
+        background:#FFFFFF ;
+    }
+
+    .dropdown_menu li a{
+        display: block;
+    }
+
+    .dropdown_menu .open{
+        height: 300px;
+    }
+
+    .dropdown_menu li a{
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        color:black;
+    }
+
+    .dropdown_menu .action_btn-1{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .dropdown_menu .action_btn{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0rem;
+    }
+
+    #At-Biotech button{
+        display: none;
+    }
+
+    .flex-1{
+        width: 10rem;
+    }
+
+    .flex-1 img{
+        width: 16rem;
+    }
+}
+
+@media(max-width:587px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+
+    .open{
+        margin-right: 0;
+    }
+
+    .about-us{
+        flex-direction: column;
+        margin-left: -4rem;
+    }
+
+    #At-Biotech h3{
+        text-align: center;
+    }
+
+    .consulting-page{
+        margin-top: -3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    #At-Biotech{
+        margin-top: 1rem;
+    }
+
+    #At-Biotech button{
+        display: block;
+        margin-left: 6rem;
+    }
+
+    #consulting h3{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .consulting-flex{
+        flex-direction: column;
+    }
+
+    .flex-1{
+        width: 100%;
+    }
+
+    .why-biogrowth h1{
+        font-size: 20px;
+    }
+
+    #why-choose-bio-growth{
+        flex-direction: column;
+    }
+
+    .why-1 h2{
+        font-size: 16px;
+    }
+
+    .consulting-buttons{
+        width: 100%;
+    }
+
+    .consulting-buttons button{
+        width:120px
+    }
+
+    .consulting-buttons button:hover{
+        width:120px
+    }
+    
+    .newsletter{
+        margin-left: 0rem;
+    }
+
+    .newsletter-user-info{
+        width:337.76px;
+        height: 69px;
+        padding: 16px;
+        gap: 69px;
+        border-radius: 64px;
+        padding: 0;
+        border: 1px solid #2E2E2E;
+        align-items: center;
+    }
+
+    .newsletter-user-info button{
+        width:119.76px;
+        height: 37px;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+        border-radius: 41px;
+        margin-left: -3rem;
+        margin-right: 2rem;
+    }
+
+    .newsletter-user-info input{
+        background: transparent;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 0rem;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .footer img{
+        margin-left: 1rem;
+    }
+
+    .footer h5{
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-info-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .footer-info-1 a {
+        margin-bottom: 10px;
+        margin-left: 4rem;
+        text-align: justify; /* Justify text for these links */
+    }
+
+    .footer-info-2 {
+        width: 100%;
+        margin-top: -3rem;
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        align-items: start;
+        text-align: left; /* Align text to the left for grid items */
+    }
+
+    .footer-info-2-link,
+    .footer-info-2-link-contact,
+    .footer-info-2-link-newsletter {
+        margin-left: -3.5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        text-align: justify; /* Justify text for grid items */
+    }
+
+    .footer-info-2-link a,
+    .footer-info-2-link-contact a,
+    .footer-info-2-link-newsletter a {
+        margin-bottom: -5px;
+        margin-top: -15px;
+        display: block;
+        margin-bottom: 5px;
+        text-align: left; /* Align text to the left for links */
+    }
+
+    .footer-info-2-link-newsletter #subscribe {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .footer-info-2-link-newsletter input {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+
+    .footer-info-2-link-newsletter button {
+        width: 80%;
+    }
+
+    .footer-detail{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
 }

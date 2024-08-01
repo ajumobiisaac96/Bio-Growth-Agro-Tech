@@ -987,6 +987,15 @@ hr{
         overflow-x: hidden;
     }
 
+    header{
+        height: 100vh;
+        background-image: url(images/background-image.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 0 2rem;
+    }
+
     li{
        list-style: none; 
     }
@@ -1011,11 +1020,10 @@ hr{
     }
 
     .navbar {
-        width: 80%;
+        width: 100%;
         height: 76px;
         max-width: 1200px;
-        margin-left:7rem;
-        margin-bottom: 1rem;
+        margin: 0 auto;
         padding-left: 1rem;
         padding-right: 1rem;
         display: flex;
@@ -1023,7 +1031,12 @@ hr{
         justify-content: space-between;
         background-color: #fff;
         border-radius: 81px;
-        border: 1px solid #004C1F;
+        border: 1px solid #2E2E2E;
+    }
+
+    .logo img{
+        width: 37px;
+        height: 56px;
     }
 
     .navbar .logo a{
@@ -1035,18 +1048,14 @@ hr{
         align-items: center;
     }
 
-    .logo img{
-        width: 37px;
-        height: 56px;
-    }
-
     .navbar .links{
         display: flex;
+        gap: 2rem;
     }
 
     .links li a{
         display: inline;
-        margin-right: 30px;
+        margin-right: 40px;
         font-weight: 500;
         justify-content: space-between;
 
@@ -1073,7 +1082,7 @@ hr{
         gap: 10px;
         border-radius: 35px;
         border: 1px solid #004C1F ;
-        margin-left: -9rem;
+        margin-left: -12rem;
     }
 
     .action_btn-1{
@@ -1096,6 +1105,20 @@ hr{
         transition: 0.5s;
         color:#004C1F;
         background-color: #fff;
+    }
+
+    .dropdown_menu{
+        display: none;
+        position: absolute;
+        right: 5rem;
+        top: 10px;
+        height: 0;
+        width: 400px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+
     }
 
     .toggle_btn{
@@ -1964,7 +1987,6 @@ hr{
 @media(max-width:578px){
     body{
         overflow-x: hidden;
-
     }
 
     .dropdown_menu{
@@ -2039,17 +2061,17 @@ hr{
         display: flex;
         flex-direction: column;
         padding: 10px;
-        margin-left: -3rem;
-        margin-top: 7rem;
-        width: 26.5rem;
+        margin-left: 0rem;
+        margin-top: 4rem;
+        width: 100%;
     }
 
     .footer img{
-        margin-left: -3rem;
+        margin-left: 1rem;
     }
 
     .footer h5{
-        margin-left: -4rem;
+        margin-left: 0rem;
         margin-bottom: 1rem;
     }
 
@@ -2061,13 +2083,14 @@ hr{
 
     .footer-info-1 a {
         margin-bottom: 10px;
+        margin-left: 4rem;
         text-align: justify; /* Justify text for these links */
     }
 
     .footer-info-2 {
-        width: 28.5rem;
+        width: 100%;
         margin-top: -3rem;
-        margin-left: -5rem;
+        margin-left: 0;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
@@ -2110,10 +2133,9 @@ hr{
     }
 
     .footer-detail{
-        width: 25.5rem;
-        margin-left: -2rem;
+        width: 100%;
+        margin-left: 0rem;
     }
-
 
 }
 
