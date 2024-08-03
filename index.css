@@ -3829,6 +3829,9 @@
 
     .dropdown_menu{
         display: block;
+        width: 80%;
+        margin-right: 4rem;
+        background:#FFFFFF ;
     }
 
     .dropdown_menu li a{
@@ -3844,6 +3847,10 @@
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+
+    .open{
+        margin-right: 0;
     }
 
     .hero-info{
@@ -4108,6 +4115,7 @@
     .footer {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         padding: 10px;
         margin-left: 0rem;
         margin-top: 4rem;
@@ -4115,11 +4123,11 @@
     }
 
     .footer img{
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     .footer h5{
-        margin-left: 0rem;
+        margin-left: 4rem;
         margin-bottom: 1rem;
     }
 
@@ -4131,8 +4139,8 @@
 
     .footer-info-1 a {
         margin-bottom: 10px;
-        margin-left: 4rem;
-        text-align: justify; /* Justify text for these links */
+        margin-left: 0rem;
+        text-align: left; /* Justify text for these links */
     }
 
     .footer-info-2 {
@@ -4149,7 +4157,7 @@
     .footer-info-2-link,
     .footer-info-2-link-contact,
     .footer-info-2-link-newsletter {
-        margin-left: -3.5rem;
+        margin-left: -9rem;
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
