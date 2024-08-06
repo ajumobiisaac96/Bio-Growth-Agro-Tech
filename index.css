@@ -4098,18 +4098,18 @@
     }
 
     .newsletter-user-info button{
-        width: 90px;
+        width: 70px;
         height: 32px;
-        top: 10px;
-        left: 230px;
         padding: 4px 8px 4px 8px;
-        gap: 8px;
+        gap: 7px;
         border-radius: 41px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .newsletter-user-info input{
         font-size: 14px;
+        text-align: left;
+        background: transparent;
     }
 
     .footer {

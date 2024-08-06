@@ -811,7 +811,7 @@ text-align: center;
     }
 }
 
-@media (max-width:1024px){
+@media (max-width:1080px){
     body{
         overflow-x: hidden;
     }
@@ -821,7 +821,7 @@ text-align: center;
     }
 
     .navbar{
-        margin-left: 6rem;
+    width:80% ;
     }
 
     .navbar .toggle_btn{
@@ -830,10 +830,43 @@ text-align: center;
 
     .dropdown_menu{
         display: block;
+        width: 80%;
+        margin-right: 0rem;
+        margin-left: 6rem;
+        background:#FFFFFF ;
     }
 
     .dropdown_menu li a{
         display: block;
+    }
+
+    .dropdown_menu .open{
+        height: 300px;
+        right: 0;
+
+    }
+
+    .dropdown_menu li a{
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        color:black;
+    }
+
+    .dropdown_menu .action_btn-1{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .dropdown_menu .action_btn{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0rem;
     }
 
     .signup-image img{

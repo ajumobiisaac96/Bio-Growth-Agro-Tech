@@ -1109,7 +1109,7 @@ hr{
 
     .dropdown_menu{
         display: none;
-        position: absolute;
+        /* position: absolute;
         right: 5rem;
         top: 10px;
         height: 0;
@@ -1117,7 +1117,7 @@ hr{
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(15px);
         border-radius: 10px;
-        overflow: hidden;
+        overflow: hidden; */
 
     }
 
@@ -1485,7 +1485,7 @@ hr{
  
      .dropdown_menu{
          display: none;
-         position: absolute;
+         /* position: absolute;
          padding: 1rem;
          right: 2rem;
          top: 150px;
@@ -1494,34 +1494,7 @@ hr{
          background:#FFFFFF;
          backdrop-filter: blur(15px);
          border-radius: 10px;
-         overflow: hidden;
-     }
- 
-     .dropdown_menu .open{
-         height: 300px;
-     }
- 
-     .dropdown_menu li a{
-         padding: 0.7rem;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-items: center;
-         color: #000000
-     }
- 
-     .dropdown_menu .action_btn-1{
-         width: 100%;
-         justify-content: center;
-         display: flex;
-     }
- 
-     .dropdown_menu .action_btn{
-         width: 100%;
-         justify-content: center;
-         display: flex;
-         margin-top: 20px;
-         margin-left: 0rem;
+         overflow: hidden; */
      }
 
      #first-info{
@@ -1664,8 +1637,7 @@ hr{
         text-align: left;
         color: #000000;
     }
-    
-    
+
     .footer-info-2-link-newsletter a{
         padding-right: 140px;
         padding-bottom: 10px;
@@ -1729,7 +1701,7 @@ hr{
      
 }
 
-@media(max-width:1024px){
+@media(max-width:1080px){
     body{
         margin-left: 2rem;
         margin-right: 2rem;
@@ -1746,6 +1718,9 @@ hr{
 
     .dropdown_menu{
         display: block;
+        width: 80%;
+        margin-right: 4rem;
+        background:#FFFFFF ;
     }
 
     .dropdown_menu li a{
@@ -1987,6 +1962,8 @@ hr{
 @media(max-width:578px){
     body{
         overflow-x: hidden;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .dropdown_menu{
@@ -2060,6 +2037,7 @@ hr{
     .footer {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         padding: 10px;
         margin-left: 0rem;
         margin-top: 4rem;
@@ -2067,11 +2045,11 @@ hr{
     }
 
     .footer img{
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     .footer h5{
-        margin-left: 0rem;
+        margin-left: 4rem;
         margin-bottom: 1rem;
     }
 
@@ -2083,8 +2061,8 @@ hr{
 
     .footer-info-1 a {
         margin-bottom: 10px;
-        margin-left: 4rem;
-        text-align: justify; /* Justify text for these links */
+        margin-left: 0rem;
+        text-align: left; /* Justify text for these links */
     }
 
     .footer-info-2 {
@@ -2101,7 +2079,7 @@ hr{
     .footer-info-2-link,
     .footer-info-2-link-contact,
     .footer-info-2-link-newsletter {
-        margin-left: -3.5rem;
+        margin-left: -9rem;
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
