@@ -4089,7 +4089,7 @@
     }
 
     .newsletter-user-info{
-        width: 20rem;
+        width: 17rem;
         height: 52px;
         top: 191px;
         left: 20px;
@@ -4098,18 +4098,23 @@
     }
 
     .newsletter-user-info button{
-        width: 70px;
+        width: 80px;
         height: 32px;
         padding: 4px 8px 4px 8px;
         gap: 7px;
         border-radius: 41px;
         font-size: 12px;
+        margin-left: -4rem;
     }
 
     .newsletter-user-info input{
         font-size: 14px;
         text-align: left;
         background: transparent;
+    }
+
+    .newsletter-user-info input::placeholder{
+        font-size: 12px;
     }
 
     .footer {
