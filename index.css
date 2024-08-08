@@ -4104,7 +4104,7 @@
         gap: 7px;
         border-radius: 41px;
         font-size: 12px;
-        margin-left: -4rem;
+        margin-left: -6.5rem;
         color: red;
     }
 
@@ -4115,7 +4115,7 @@
     }
 
     .newsletter-user-info input::placeholder{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .footer {
