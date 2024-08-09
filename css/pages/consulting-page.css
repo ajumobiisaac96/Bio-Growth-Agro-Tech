@@ -1483,35 +1483,44 @@
     }
 
     .navbar{
-    width:80% ;
+        width: 90%;
+        
     }
 
     .navbar .toggle_btn{
         display: block;
     }
 
-    .dropdown_menu{
-        display: block;
-        width: 80%;
-        margin-right: 4rem;
-        background:#FFFFFF ;
-    }
-
     .dropdown_menu li a{
         display: block;
     }
 
+    .dropdown_menu{
+        left: 2rem;
+        position: absolute;
+        padding: 1rem;
+        right: 2rem;
+        top: 150px;
+        height: 75vh;
+        width: 950px;
+        background: #FFFFFF;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
     .dropdown_menu .open{
         height: 300px;
+        margin-right: 2rem;
+        width: 4rem;
     }
 
     .dropdown_menu li a{
         padding: 0.7rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        color:black;
+        align-items:flex-start;
+        color:#000000;
     }
 
     .dropdown_menu .action_btn-1{
@@ -1566,8 +1575,8 @@
 
     .consulting-page{
         margin-top: -3rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
 
     }
 
@@ -1622,7 +1631,7 @@
     }
 
     .newsletter-user-info{
-        width:337.76px;
+        width:317.76px;
         height: 69px;
         padding: 16px;
         gap: 69px;
@@ -1640,15 +1649,23 @@
         border-radius: 41px;
         margin-left: -3rem;
         margin-right: 2rem;
+        font-size: 14px;
     }
 
     .newsletter-user-info input{
         background: transparent;
+        margin-left: 0rem;
+    }
+
+    .newsletter-user-info input::placeholder{
+        font-size: 14px;
+        margin-left: 0rem;
     }
 
     .footer {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         padding: 10px;
         margin-left: 0rem;
         margin-top: 4rem;
@@ -1656,11 +1673,11 @@
     }
 
     .footer img{
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     .footer h5{
-        margin-left: 0rem;
+        margin-left: 4rem;
         margin-bottom: 1rem;
     }
 
@@ -1672,8 +1689,8 @@
 
     .footer-info-1 a {
         margin-bottom: 10px;
-        margin-left: 4rem;
-        text-align: justify; /* Justify text for these links */
+        margin-left: 0rem;
+        text-align: left; /* Justify text for these links */
     }
 
     .footer-info-2 {
@@ -1690,7 +1707,7 @@
     .footer-info-2-link,
     .footer-info-2-link-contact,
     .footer-info-2-link-newsletter {
-        margin-left: -3.5rem;
+        margin-left: -9rem;
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
