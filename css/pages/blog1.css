@@ -1335,33 +1335,50 @@ text-align: left;
     .newsletter{
         margin-top: 4rem;
         margin-left: 2rem;
-        align-items: flex-start;
     }
 
     .newsletter h1{
-        font-size: 22px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .newsletter h5{
+        margin-left:10px;
+        margin-right:10px;
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .newsletter-user-info{
-        width: 20rem;
-        justify-content: flex-start;
-    }
-
-    .newsletter-user-info ::placeholder{
-        font-size: 12px;
-        background: transparent;
-        text-align: left;
-    }
-
-    .newsletter-user-info input{
-        background: transparent;
+        width: 17rem;
+        height: 52px;
+        top: 191px;
+        left: 20px;
+        padding: 10px 16.24px 10px 16px;
+        border-radius: 64px;
     }
 
     .newsletter-user-info button{
-        width: 300px;
-        font-size: 12px;
-        margin-left: -1rem;
+        width: 80px;
+        height: 32px;
+        padding: 4px 8px 4px 8px;
+        gap: 7px;
+        border-radius: 41px;
+        font-size: 11px;
+        margin-left: -6.5rem;
+
     }
+
+    .newsletter-user-info input{
+        font-size: 14px;
+        text-align: left;
+        background: transparent;
+    }
+
+    .newsletter-user-info input::placeholder{
+        font-size: 12px;
+    }
+    
 
     .connect{
         margin-left: 2rem;

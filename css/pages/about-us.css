@@ -1025,35 +1025,43 @@
     }
 
     .navbar{
-    width:80% ;
+        width: 90%;
     }
 
     .navbar .toggle_btn{
         display: block;
     }
 
-    .dropdown_menu{
-        display: block;
-        width: 80%;
-        margin-right: 4rem;
-        background:#FFFFFF ;
-    }
-
     .dropdown_menu li a{
         display: block;
     }
 
+    .dropdown_menu{
+        left: 2rem;
+        position: absolute;
+        padding: 1rem;
+        right: 2rem;
+        top: 150px;
+        height: 75vh;
+        width: 950px;
+        background: #FFFFFF;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
     .dropdown_menu .open{
         height: 300px;
+        margin-right: 2rem;
+        width: 4rem;
     }
 
     .dropdown_menu li a{
         padding: 0.7rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        color:black;
+        align-items:flex-start;
+        color:#000000;
     }
 
     .dropdown_menu .action_btn-1{
@@ -1266,37 +1274,52 @@
         width: 80%;
     }
 
-    .dropdown_menu{
-        left: 2rem;
-        width: unset;
-    }
-
     body{
         overflow-x: hidden;
     }
 
     .dropdown_menu{
         left: 2rem;
-        width: unset;
+        position: absolute;
+        padding: 1rem;
+        right: 2rem;
+        top: 150px;
+        height: 75vh;
+        width: 310px;
+        background: #FFFFFF;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
     }
 
-    .open{
-        margin-right: 0;
-    }
-
-
-    #left-space {
-        margin-left:3rem;
-        font-size: 16px;
-    }
-
-    .navbar .toggle_btn{
-        display: block;
+    .dropdown_menu .open{
+        height: 300px;
+        margin-right: 2rem;
+        width: 4rem;
     }
 
     .dropdown_menu li a{
-        display: block;
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        color:#000000;
     }
+
+    .dropdown_menu .action_btn-1{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .dropdown_menu .action_btn{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0rem;
+    }
+
 
     .hero h1{
         text-align: center;
@@ -1417,29 +1440,46 @@
         margin-left: 2rem;
     }
 
+    .newsletter h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .newsletter h5{
+        margin-left:10px;
+        margin-right:10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
     .newsletter-user-info{
-        width:337.76px;
-        height: 69px;
-        padding: 16px;
-        gap: 69px;
+        width: 17rem;
+        height: 52px;
+        top: 191px;
+        left: 20px;
+        padding: 10px 16.24px 10px 16px;
         border-radius: 64px;
-        padding: 0;
-        border: 1px solid #2E2E2E;
-        align-items: center;
     }
 
     .newsletter-user-info button{
-        width:119.76px;
-        height: 37px;
-        padding: 8px 16px 8px 16px;
-        gap: 8px;
+        width: 80px;
+        height: 32px;
+        padding: 4px 8px 4px 8px;
+        gap: 7px;
         border-radius: 41px;
-        margin-left: -3rem;
-        margin-right: 2rem;
+        font-size: 11px;
+        margin-left: -6.5rem;
+
     }
 
     .newsletter-user-info input{
+        font-size: 14px;
+        text-align: left;
         background: transparent;
+    }
+
+    .newsletter-user-info input::placeholder{
+        font-size: 12px;
     }
 
     .connect {

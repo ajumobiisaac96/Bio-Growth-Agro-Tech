@@ -634,7 +634,7 @@
     }
 }
 
-@media (max-width:1024px){
+@media (max-width:1080px){
     body{
         overflow-x: hidden;
     }
@@ -643,20 +643,55 @@
         display: none;
     }
 
-    .navbar{
-        margin-left: 6rem;
-    }
-
     .navbar .toggle_btn{
-        display: block;
-    }
-
-    .dropdown_menu{
         display: block;
     }
 
     .dropdown_menu li a{
         display: block;
+    }
+
+    .dropdown_menu{
+        left: 2rem;
+        position: absolute;
+        padding: 1rem;
+        right: 2rem;
+        top: 150px;
+        height: 75vh;
+        width: 850px;
+        background: #FFFFFF;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-left: 2rem;
+    }
+
+    .dropdown_menu .open{
+        height: 300px;
+        margin-right: 2rem;
+        width: 4rem;
+    }
+
+    .dropdown_menu li a{
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        color:#000000;
+    }
+
+    .dropdown_menu .action_btn-1{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .dropdown_menu .action_btn{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0rem;
     }
 
     .signup-image img{
@@ -733,50 +768,66 @@
         display: block;
     }
 
-    .dropdown_menu li a{
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        width: 80%;
+        margin: 2rem;
+    }
+
+    #left-space {
+        margin-left:3.5rem;
+        font-size: 16px;
+    }
+
+    .navbar .toggle_btn{
         display: block;
     }
 
     .dropdown_menu{
+        left: 0rem;
         position: absolute;
         padding: 1rem;
-        right: 3rem;
+        right: 2rem;
         top: 150px;
         height: 75vh;
-        width: 19rem;
-        background:#FFFFFF;
+        width: 310px;
+        background: #FFFFFF;
         backdrop-filter: blur(15px);
         border-radius: 10px;
         overflow: hidden;
     }
 
     .dropdown_menu .open{
-        height: 100px;
+        height: 300px;
+        margin-right: 2rem;
+        width: 4rem;
     }
 
     .dropdown_menu li a{
         padding: 0.7rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
+        align-items:flex-start;
         color:#000000;
     }
 
     .dropdown_menu .action_btn-1{
-        width: 50%;
+        width: 100%;
         justify-content: center;
         display: flex;
-        margin-left: 4rem;
     }
 
     .dropdown_menu .action_btn{
-        width: 50%;
+        width: 100%;
         justify-content: center;
         display: flex;
         margin-top: 20px;
-        margin-left: 4rem;
+        margin-left: 0rem;
     }
+
 
     #nav-bar ul {
         padding: 0;
