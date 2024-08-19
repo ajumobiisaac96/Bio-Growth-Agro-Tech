@@ -120,6 +120,16 @@
     color: #2E2E2E;
 }
 
+.account-dashboard a{
+    text-decoration: none;
+    color: black;
+}
+
+.account-dashboard .focus{
+    color: #004C1F;
+    font-weight: 700;
+}
+
 .account-dashboard p{
     font-size: 16px;
     font-weight: 500;

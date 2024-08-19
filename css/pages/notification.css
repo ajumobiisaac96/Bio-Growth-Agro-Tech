@@ -118,13 +118,22 @@
     text-align: left;
     color: #2E2E2E;
 }
-
+.account-dashboard a{
+    text-decoration: none;
+    color: black;
+}
 .account-dashboard p{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
     color: #2E2E2E;
+}
+
+
+.account-dashboard .focus{
+    color: #004C1F;
+    font-weight: 700;
 }
 
 .general-info-form{

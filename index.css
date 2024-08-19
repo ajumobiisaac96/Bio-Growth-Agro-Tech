@@ -3841,6 +3841,11 @@
         overflow-x: hidden;
     }
 
+    header{
+        height:90vh;
+    }
+
+
     .dropdown_menu{
         left: 2rem;
         position: absolute;
